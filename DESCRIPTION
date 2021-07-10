@@ -1,0 +1,17 @@
+Package: inkr
+Title: R interface to Inkle's Ink engine through inkjs
+Version: 0.0.1
+Authors@R: 
+    person(given = "Robert",
+           family = "Zamora",
+           role = c("aut", "cre"),
+           email = "zamora.rr@gmail.com")
+Description: Provides an R interface to Inkle's Ink engine through inkjs.
+License: MIT + file LICENSE
+Imports: 
+    jsonlite,
+    V8
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 7.1.1

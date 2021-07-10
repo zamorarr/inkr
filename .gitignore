@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.V8history
+.Rdata
+.httr-oauth
+.DS_Store
+example.r
+inst/js/ink-old.js

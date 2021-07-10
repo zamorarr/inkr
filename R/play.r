@@ -3,7 +3,7 @@
 #' @export
 read_inkjson <- function(filepath) {
   txt <- readLines(filepath, warn = FALSE)
-  jsonlite::fromJSON(txt, simplifyVector = TRUE)
+  jsonlite::fromJSON(txt, simplifyVector = FALSE)
 }
 
 #' Load Ink story from JSON

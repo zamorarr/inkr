@@ -28,4 +28,20 @@ Playing a JSON version of an Ink story in R:
 library(inkr)
 storyfile <- system.file("examples", "the-intercept.json", package = "inkr")
 play_story(storyfile)
+
+## They are keeping me waiting.
+##
+## [1] Hut 14
+##
+## Choice: 1
+## ---------------------------------
+## Hut 14. The door was locked after I sat down.
+## I don't even have a pen to do any work. There's a copy of the morning's intercept in my pocket, but staring at the jumbled letters will only drive me mad.
+## I am not a machine, whatever they say about me.
+##
+## [1] Think
+## [2] Plan
+## [3] Wait
+
+## Choice: 
 ```
